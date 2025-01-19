@@ -95,7 +95,7 @@ class UserEditModal
         $groups = $this->groupModel::all();
 
         // Get a list of all locales
-        $locales = $this->siteLocale->getAvailableIdentifiers();
+        $locales = $this->siteLocale->getAvailableOptions();
 
         // Generate form
         $fields = [
